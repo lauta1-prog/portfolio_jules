@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // ===== Toggle Menu =====
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.getElementById("nav-links");
@@ -70,7 +69,7 @@ if (typeof particlesJS !== "undefined") {
 } else {
   console.warn("particles.js library not loaded");
 }
-=======
+
 // ===== Toggle Menu =====
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.getElementById("nav-links");
@@ -142,4 +141,3 @@ if (typeof particlesJS !== "undefined") {
 } else {
   console.warn("particles.js library not loaded");
 }
->>>>>>> 3e25e5a2c2e971d59bd75ee5ab05d651db474a2b
