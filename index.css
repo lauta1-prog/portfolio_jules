@@ -107,7 +107,13 @@ body {
   padding: 100px 5% 0;
   z-index: 2;
   position: relative;
-  margin-top: 40px;
+}
+.hero-img img {
+  width: 400px; /* Force a specific width for the frame */
+  height: 400px; /* Force a specific height for the frame */
+  border-radius: 50%; /* Makes the frame a perfect circle */
+  object-fit: cover; /* Prevents stretching */
+  object-position: center 25%; /* Slides your face down inside the circle */
 }
 
 .hero-content {
