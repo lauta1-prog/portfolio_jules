@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jules Lauta | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -31,7 +36,7 @@
     <section class="hero" id="home">
       <div class="hero-content">
         <div class="hero-text">
-          <h3>Hello, I’m</h3>
+          <h3>Hello, I'm</h3>
           <h1>Jules Lauta</h1>
           <h2>Front-End Developer & <span>UI Designer</span></h2>
           <p>
@@ -49,7 +54,7 @@
       <div class="about-content">
         <h2>About Me</h2>
         <p>
-          👋 Hi! I’m <b>Jules Lauta</b>, a Front-End Developer & UI Designer
+          👋 Hi! I'm <b>Jules Lauta</b>, a Front-End Developer & UI Designer
           based in the Philippines. I enjoy creating interactive and responsive
           websites that bring ideas to life. My passion lies in turning creative
           concepts into clean and functional designs. Outside of coding, I love
@@ -64,21 +69,99 @@
     <section id="projects" class="projects">
       <div class="projects-content">
         <h2>My Projects</h2>
+
         <div class="project-grid">
           <div class="project-card">
-            <img src="petproject.png" alt="Project 1" />
-            <h3>Pet Care Website</h3>
-            <p>
-              A responsive web design for booking pet grooming and vet services.
-            </p>
+            <div class="slider">
+              <button class="prev" aria-label="Previous image">&#10094;</button>
+              <div class="slides">
+                <img src="1.jpg" alt="Project One preview 1" />
+                <img src="2.jpg" alt="Project One preview 2" />
+              </div>
+              <button class="next" aria-label="Next image">&#10095;</button>
+            </div>
+            <h3>Project One</h3>
+            <p>Description here.</p>
           </div>
+
           <div class="project-card">
-            <img src="apartnear.png" alt="Appartnear" />
-            <h3>Appartnear</h3>
-            <p>
-              A modern apartment listing platform that connects renters and
-              owners with interactive features.
-            </p>
+            <div class="slider">
+              <button class="prev" aria-label="Previous image">&#10094;</button>
+              <div class="slides">
+                <img src="login (2).png" alt="Project Two preview 1" />
+                <img src="verify.png" alt="Project Two preview 2" />
+                <img src="dashboard (2).png" alt="Project Two preview 3" />
+                <img src="casestatus.png" alt="Project Two preview 4" />
+                <img src="ongoing.png" alt="Project Two preview 5" />
+                <img src="reports.png" alt="Project Two preview 6" />
+                <img src="archive.png" alt="Project Two preview 7" />
+                <img src="schedule.png" alt="Project Two preview 8" />
+                <img src="dss.png" alt="Project Two preview 9" />
+              </div>
+              <button class="next" aria-label="Next image">&#10095;</button>
+            </div>
+            <h3>Project Two</h3>
+            <p>Description here.</p>
+          </div>
+
+          <div class="project-card">
+            <div class="slider">
+              <button class="prev" aria-label="Previous image">&#10094;</button>
+              <div class="slides">
+                <img src="jules.jpg" alt="Project Three preview 1" />
+                <img src="jules.jpg" alt="Project Three preview 2" />
+                <img src="jules.jpg" alt="Project Three preview 3" />
+                <img src="jules.jpg" alt="Project Three preview 4" />
+              </div>
+              <button class="next" aria-label="Next image">&#10095;</button>
+            </div>
+            <h3>Project Three</h3>
+            <p>Description here.</p>
+          </div>
+
+          <div class="project-card">
+            <div class="slider">
+              <button class="prev" aria-label="Previous image">&#10094;</button>
+              <div class="slides">
+                <img src="jules.jpg" alt="Project Four preview 1" />
+                <img src="jules.jpg" alt="Project Four preview 2" />
+                <img src="jules.jpg" alt="Project Four preview 3" />
+                <img src="jules.jpg" alt="Project Four preview 4" />
+              </div>
+              <button class="next" aria-label="Next image">&#10095;</button>
+            </div>
+            <h3>Project Four</h3>
+            <p>Description here.</p>
+          </div>
+
+          <div class="project-card">
+            <div class="slider">
+              <button class="prev" aria-label="Previous image">&#10094;</button>
+              <div class="slides">
+                <img src="jules.jpg" alt="Project Five preview 1" />
+                <img src="jules.jpg" alt="Project Five preview 2" />
+                <img src="jules.jpg" alt="Project Five preview 3" />
+                <img src="jules.jpg" alt="Project Five preview 4" />
+              </div>
+              <button class="next" aria-label="Next image">&#10095;</button>
+            </div>
+            <h3>Project Five</h3>
+            <p>Description here.</p>
+          </div>
+
+          <div class="project-card">
+            <div class="slider">
+              <button class="prev" aria-label="Previous image">&#10094;</button>
+              <div class="slides">
+                <img src="jules.jpg" alt="Project Six preview 1" />
+                <img src="jules.jpg" alt="Project Six preview 2" />
+                <img src="jules.jpg" alt="Project Six preview 3" />
+                <img src="jules.jpg" alt="Project Six preview 4" />
+              </div>
+              <button class="next" aria-label="Next image">&#10095;</button>
+            </div>
+            <h3>Project Six</h3>
+            <p>Description here.</p>
           </div>
         </div>
       </div>
@@ -114,11 +197,11 @@
         </div>
       </div>
     </section>
+
     <!-- ===== Contact Section ===== -->
     <section id="contact" class="contact">
       <div class="contact-content">
         <h2>Contact Me</h2>
-
         <div class="contact-info">
           <div class="contact-item">
             <h3>Email</h3>
@@ -128,20 +211,20 @@
               >
             </p>
           </div>
-
           <div class="contact-item">
             <h3>Phone</h3>
             <p><a href="tel:09662053879">0966 205 3879</a></p>
           </div>
-
           <div class="contact-item">
             <h3>Facebook</h3>
             <p>
               <a
                 href="https://www.facebook.com/JulesSaplalaLauta"
                 target="_blank"
-                >Jules Saplala Lauta</a
+                rel="noopener noreferrer"
               >
+                Jules Saplala Lauta
+              </a>
             </p>
           </div>
         </div>
